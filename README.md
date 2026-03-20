@@ -26,7 +26,7 @@ node build-inline.js
 Все ключевые параметры вынесены в src/config.ts:
 
 Структура проекта
-Playble/
+Playble
 ├── public/
 │   ├── assets/
 │   │   └── tutorial/        # PNG-фреймы анимации руки (frame_0001.png - frame_0094.png)

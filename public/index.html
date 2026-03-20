@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playable</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+    }
+    #game-container {
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container"></div>
+
+  <!-- Win/Lose overlays -->
+  <div id="win-overlay" style="
+    position:absolute; inset:0; display:none; align-items:center; justify-content:center;
+    flex-direction:column; background:rgba(0,0,0,0.6); color:white; font-family:sans-serif;">
+    <h1>You Win!</h1>
+    <button>Next</button>
+  </div>
+
+  <div id="lose-overlay" style="
+    position:absolute; inset:0; display:none; align-items:center; justify-content:center;
+    flex-direction:column; background:rgba(0,0,0,0.6); color:white; font-family:sans-serif;">
+    <h1>You Lose</h1>
+    <button>Retry</button>
+  </div>
+
+  <script src="bundle.js"></script>
+</body>
+</html>

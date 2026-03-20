@@ -32,19 +32,18 @@ Playble/
 │   ├── index.html           # HTML-шаблон
 │   └── bundle.js            # Скомпилированный JS (после npm run build)
 ├── src/
-│   ├── main.ts             # Точка входа
-│   ├── config.ts           # Конфигурация
-│   ├── game.ts             # Инициализация игры
-│   ├── physics.ts          # Matter.js физика
-│   ├── drag.ts             # Drag & release механика
-│   ├── ui.ts               # Win/Lose экраны
-│   ├── tutorial.ts         # Туториал
-│   └── types.d.ts          # TypeScript типы
+│   ├── main.ts              # Точка входа
+│   ├── config.ts            # Конфигурация
+│   ├── game.ts              # Инициализация игры
+│   ├── physics.ts           # Matter.js физика
+│   ├── drag.ts              # Drag & release механика
+│   ├── ui.ts                # Win/Lose экраны
+│   └── types.d.ts           # TypeScript типы
 ├── dist/
-│   └── index.html          # ФИНАЛЬНЫЙ ФАЙЛ (после npm run build:final)
+│   └── index.html           # ФИНАЛЬНЫЙ ФАЙЛ (после npm run build:final)
 ├── package.json
 ├── tsconfig.json
-├── build-inline.js         # Скрипт для создания inline HTML
+├── build-inline.js          # Скрипт для создания inline HTML
 └── README.md
 
 Механика

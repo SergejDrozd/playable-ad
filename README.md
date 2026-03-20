@@ -24,6 +24,7 @@ node build-inline.js
 
 Конфигурация
 Все ключевые параметры вынесены в src/config.ts:
+
 Структура проекта
 Playble/
 ├── public/

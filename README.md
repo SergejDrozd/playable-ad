@@ -33,6 +33,7 @@ Playble/
 │   ├── index.html           # HTML-шаблон
 │   └── bundle.js            # Скомпилированный JS (после npm run build)
 ├── src/
+
 │   ├── main.ts              # Точка входа
 │   ├── config.ts            # Конфигурация
 │   ├── game.ts              # Инициализация игры

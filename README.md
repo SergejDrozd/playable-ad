@@ -32,8 +32,7 @@ Playble/
 │   │   └── tutorial/        # PNG-фреймы анимации руки (frame_0001.png - frame_0094.png)
 │   ├── index.html           # HTML-шаблон
 │   └── bundle.js            # Скомпилированный JS (после npm run build)
-├── src/
-
+├── src/ 
 │   ├── main.ts              # Точка входа
 │   ├── config.ts            # Конфигурация
 │   ├── game.ts              # Инициализация игры
